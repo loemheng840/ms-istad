@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: native,vault # git, vault
+    # native read from file system
+    # git read from git repo
+    # vault read from vault
+  cloud:
+    config:
+      server:
+        vault:
+          host: localhost
+          port: 8200
+          scheme: http
+          authentication: TOKEN
+          token: myroot
+          kv-version: 2
+          backend: secret
+          profile-separator: /
+        native:
+          search-locations:
+            - file:/home/loemheng/micro-istad/itp-config-repo
+            - file:/home/loemheng/micro-istad/itp-config-repo/{application}
+          add-label-locations: true
+
