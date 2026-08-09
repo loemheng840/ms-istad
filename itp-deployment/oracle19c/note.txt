@@ -1,0 +1,16 @@
+Oracle
+CDC = Oracle GoldenGate
+Core Banking
+T24 -> Oracle
+Oracle Flexcube
+-----------------
+CDB = Container DB
+PDB = Pluggable DB
+Non-CDB = Non-Container DB
+-----------------
+User Oracle
+sysdba = sys/password for CDB
+service = system/password PDB
+default = user/password based on grant
+
+// Legacy Oracle Database Simulator
