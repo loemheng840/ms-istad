@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="accout-service" target="21" />
+      <module name="gatway-server.main" target="21" />
+      <module name="gatway-server.test" target="21" />
       <module name="heng.dev.accout-service.main" target="21" />
       <module name="heng.dev.accout-service.test" target="21" />
     </bytecodeTargetLevel>
@@ -24,6 +26,11 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="eurekaserver.main" options="-parameters" />
       <module name="eurekaserver.test" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="gateway-server.main" options="-parameters" />
+      <module name="gateway-server.test" options="-parameters" />
+      <module name="gatway-server.main" options="-parameters" />
+      <module name="gatway-server.test" options="-parameters" />
       <module name="heng.dev.accout-service.main" options="-parameters" />
       <module name="heng.dev.accout-service.test" options="-parameters" />
     </option>
